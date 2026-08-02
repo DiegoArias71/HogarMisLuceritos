@@ -105,6 +105,10 @@ header img{
         grid-template-columns: 1fr;
     }
 
+    body{
+        background-color: red !important;
+    }
+
 }
 
 @keyframes aparecer{
