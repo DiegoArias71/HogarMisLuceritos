@@ -304,3 +304,42 @@ nav a:hover{
 .contenedor-galeria img:hover{
     transform: scale(1.05);
 }
+
+/****BENEFICIOS******/
+
+.beneficios{
+    padding: 80px 10%;
+    background: white;
+    text-align: center;
+}
+
+.contenedor-beneficios{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.beneficio{
+    background: #f8f9fa;
+    padding: 35px 25px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.icono{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.beneficio h3{
+    color: #4A7C59;
+    margin-bottom: 15px;
+}
+
+.beneficio:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+
