@@ -24,7 +24,7 @@ header img{
 
 .servicio{
     background: white;
-    border-radius: 2opx;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
     transition: 0.4s;
@@ -74,6 +74,14 @@ header img{
 
 @media (max-width: 768px){
 
+    .hero h1{
+        font-size: 50px;
+    }
+
+    .hero p{
+        font-size: 22px;
+    }
+
     .contenedor-servicios{
         flex-direction: column;
     }
@@ -98,15 +106,20 @@ header img{
     .nosotros-imagen img{
         width: 100%;
         max-width: 400px;
-
     }
 
     .contenedor-galeria{
-        grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     }
 
-    body{
-        background-color: red !important;
+    .contenedor-galeria img{
+        height: 180px;
+    }
+
+    .contenedor-beneficios{
+    display: flex;
+    flex-direction: column;
     }
 
 }
@@ -345,5 +358,4 @@ nav a:hover{
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
-
 
