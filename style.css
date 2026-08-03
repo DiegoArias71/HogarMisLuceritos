@@ -77,70 +77,6 @@ header img{
     transform: scale(1.08);
 }
 
-@media (max-width: 900px){
-
-    .hero h1{
-        font-size: 50px;
-    }
-
-    .hero p{
-        font-size: 22px;
-    }
-
-    .contenedor-servicios{
-        flex-direction: column;
-    }
-
-    .servicio{
-        width:100%;
-        box-sizing: border-box;
-    }
-
-    .boton{
-        display: block;
-        width: 90%;
-        margin: 10px auto;
-        text-align: center;
-    }
-
-    .nosotros{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .nosotros-imagen img{
-        width: 100%;
-        max-width: 400px;
-    }
-
-    .contenedor-galeria{
-    display: flex;
-    flex-direction: column;
-    }
-
-    .contenedor-galeria img{
-        height: 180px;
-    }
-
-    .contenedor-beneficios{
-    display: flex;
-    flex-direction: column;
-    }
-
-    nav{
-        padding: 15px 20px;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav ul{
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-
-}
-
 @keyframes aparecer{
 
     from{
@@ -378,3 +314,66 @@ nav a:hover{
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
+@media (max-width: 900px){
+
+    .hero h1{
+        font-size: 50px;
+    }
+
+    .hero p{
+        font-size: 22px;
+    }
+
+    .contenedor-servicios{
+        flex-direction: column;
+    }
+
+    .servicio{
+        width:100%;
+        box-sizing: border-box;
+    }
+
+    .boton{
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .nosotros{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nosotros-imagen img{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .contenedor-galeria{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .contenedor-galeria img{
+        height: 180px;
+    }
+
+    .contenedor-beneficios{
+    display: flex;
+    flex-direction: column;
+    }
+
+    nav{
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+}
