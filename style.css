@@ -141,7 +141,7 @@ nav a:hover{
 .hero{
     background-image: url("imagenes/Hero.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: center 40%;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -149,6 +149,7 @@ nav a:hover{
     align-items: center;
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .overlay{
