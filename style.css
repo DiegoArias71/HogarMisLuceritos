@@ -1,5 +1,5 @@
 body{
-    margin: o;
+    margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     font-family: "Poppins", sans-serif;
@@ -20,7 +20,7 @@ p{
 
 header img{
     width: 120px;
-    margin-top: 150px;
+    margin-top: 190px;
     margin-bottom: 15px;
     border-radius: 20px;
 }
@@ -178,8 +178,10 @@ nav a:hover{
 }
 
 .hero-contenido h1{
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 15px;
+    padding: 10px;
+    transform: translateY(-30px);
 }
 
 .hero-contenido p{
@@ -187,6 +189,11 @@ nav a:hover{
     max-width: 700px;
     margin: 0 auto 30px;
     line-height: 1.6;
+    transform: translateY(-40px);
+}
+
+.hero-contenido .boton{
+    transform: translateY(-40px);
 }
 
 .nosotros{
@@ -313,6 +320,8 @@ nav a:hover{
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
+/***** MEDIA *******/
+
 @media (max-width: 900px){
 
     .hero h1{
@@ -376,3 +385,5 @@ nav a:hover{
     }
 
 }
+
+ 
