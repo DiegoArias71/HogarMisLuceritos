@@ -324,8 +324,9 @@ nav a:hover{
 
 @media (max-width: 900px){
 
-    .hero img{
-        width: 120px;
+    .hero{
+        background-position: center 70%;
+    }
         
     .hero h1{
         font-size: 50px;
