@@ -217,6 +217,10 @@ nav a:hover{
     max-width: 550px;
 }
 
+.nosotros-texto p{
+    font-size: 30px;
+}
+
 .nosotros-texto h2{
     font-size: 40px;
     margin-bottom: 20px;
@@ -385,5 +389,3 @@ nav a:hover{
     }
 
 }
-
- 
